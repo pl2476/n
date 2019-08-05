@@ -1,17 +1,21 @@
-# Contributing to N
+# Contributing to n
 
-### If opening up an issue, please search current issue to see if that issue exists.
+## Issues
 
-### If you want to contribute to code and/or docs, please fork this repo
+Before opening up an issue, please search for previous reports.
 
-### If you are contributing to docs and making a PR please include in the PR notes
+New issues are welcome, whether questions or suggestions or reporting bugs.
+You are also welcome to contribute by adding helpful comments on an existing issue.
 
-_i.e. * Bumped version number up in bin/n_
+## Pull Requests
 
-### If your PR solves an issue, please provide issue number in your commit or in your PR notes
+Pull Requests will be considered. Please open an issue to discuss your idea before requesting big changes.
 
-_i.e. Bumped version number up in bin/n. Solves issue #435_
+Please submit pull requests against the `develop` branch. The template will prompt you for the details,
+such as what problem you are solving, and relevant issue numbers.
 
-### Versioning will be at the discretion of the contributors.
+Don't change the version number or CHANGELOG, as they are updated by maintainers as the release is being prepared.
 
-#### _Disclaimer: Hate speech of any kind is no tolerated_
+## Code of Conduct
+
+Hate speech of any kind is not tolerated.

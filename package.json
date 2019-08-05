@@ -1,7 +1,7 @@
 {
   "name": "n",
   "description": "Interactively Manage All Your Node Versions",
-  "version": "2.1.7",
+  "version": "5.0.2",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "homepage": "https://github.com/tj/n",
   "bugs": "https://github.com/tj/n/issues",
@@ -35,9 +35,18 @@
   "bin": {
     "n": "./bin/n"
   },
+  "files": [
+    "bin/n"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/tj/n.git"
+  },
+  "scripts": {
+    "test": "test/bin/run-all-tests"
+  },
+  "devDependencies": {
+    "bats": "^1.1.0"
   },
   "preferGlobal": true,
   "os": [
